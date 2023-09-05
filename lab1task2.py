@@ -6,14 +6,14 @@ def task2(x,y):
 
 x=[]
 y=[]
-print ('Заполните первый список числами, по окончании введите stop')
+print ('Заполните первый список числами, затем введите stop')
 while True: 
     el = input ()
     if el == 'stop':
         break
     x.append(el)
     el = None
-print ('Заполните второй список числами, по окончании введите stop')
+print ('Заполните второй список числами, затем введите stop')
 while True: 
     el = input ()
     if el == 'stop':
