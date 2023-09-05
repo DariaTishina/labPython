@@ -3,9 +3,10 @@ def task2(x,y):
         return True
     else:
         return False
-
+        
 x=[]
 y=[]
+
 print ('Заполните первый список числами через enter, затем введите stop')
 while True: 
     el = input ()
@@ -13,6 +14,7 @@ while True:
         break
     x.append(el)
     el = None
+    
 print ('Заполните второй список числами через enter, затем введите stop')
 while True: 
     el = input ()
@@ -20,4 +22,5 @@ while True:
         break
     y.append(el)
     el = None
+    
 print (task2(x,y))
