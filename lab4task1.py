@@ -1,7 +1,7 @@
 from calendar import isleap
 from datetime import date
 
-#Функция для текущего года
+#Функция для проверки года на високосность
 def task1(x):
     check = isleap(x)
     return(check)
